@@ -33,13 +33,13 @@
 
 ### 장바구니
 
-- 장바구니에 상품 추가 `POST /cart/{product_id}`
-- 장바구니에 상품 삭제 `DELETE /cart/{product_id}`
-- 장바구니 (담긴 상품 목록) `GET /cart`
+- 장바구니에 상품 추가 `POST /cart-items`
+- 장바구니에 상품 삭제 `DELETE /cart-items/{id}`
+- 장바구니 (담긴 상품 목록) `GET /cart-items`
 
 ### 주문하기
 
-- 주문하기 `POST /orders/me`
+- 주문하기 `POST /orders`
 - 주문 목록 `GET /orders/me`
 
 ## 질문과 답변
